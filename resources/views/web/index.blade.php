@@ -336,7 +336,22 @@ Hulas Remittance
 					<h1 class="name">Follow Us</h1>
 					<div class="social-icon">
 						<a href="#">
-							<!-- <i class="fa fa-facebook" aria="hidden"></i> -->
+							<img src="{{url('assets/front/images/fb.png')}}">
+						</a>
+					</div>
+					<div class="social-icon">
+						<a href="#">
+							<img src="{{url('assets/front/images/tw.png')}}" class="tw-img">
+						</a>
+					</div>
+					<div class="social-icon">
+						<a href="#">
+							<img src="{{url('assets/front/images/fb.png')}}">
+						</a>
+					</div>
+					<div class="social-icon">
+						<a href="#">
+							<img src="{{url('assets/front/images/tw.png')}}" class="tw-img">
 						</a>
 					</div>
 				</div>
