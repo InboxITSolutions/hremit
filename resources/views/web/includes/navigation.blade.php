@@ -34,12 +34,13 @@
 .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 22px; }
 
 .navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding-right: 120px; padding-left: 80px; width: 100%; }
-.navbar.navbar-default .nav-collapse { background-color: #f8f8f8; }
+.navbar.navbar-default .nav-collapse { background-color: #e2e001; }
 .navbar.navbar-inverse .nav-collapse { background-color: #222; }
 .navbar .nav-collapse .navbar-form { border-width: 0; box-shadow: none; }
 .nav-collapse>li { float: right; }
 
-.btn.btn-circle { border-radius: 50px; }
+.btn.btn-circle { border-radius: 5px; }
+.btn.btn-circle img{ height: 20px; vertical-align: middle; }
 .btn.btn-outline { background-color: transparent; }
 
 .navbar-nav.navbar-right .btn:not(.collapsed) {
@@ -115,7 +116,7 @@
               <li><a href="#">News</a></li>
               <li><a href="#">Contact</a></li>
               <li>
-                <a class="btn btn-default btn-outline btn-circle collapsed"  data-toggle="collapse" href="#nav-collapse2" aria-expanded="false" aria-controls="nav-collapse2">Sign in</a>
+                <a class="btn btn-default btn-outline btn-circle collapsed signin"  data-toggle="collapse" href="#nav-collapse2" aria-expanded="false" aria-controls="nav-collapse2">Sign in</a>
               </li>
             </ul>
             <div class="collapse nav navbar-nav nav-collapse slide-down" id="nav-collapse2">
@@ -136,3 +137,11 @@
       </nav><!-- /.navbar -->
   </div><!-- /.container-fluid -->
 </section>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.signin-cancel').hide();
+    $('.signin').click({
+      $( ".signin" ).replaceWith( $( "<i class="fa fa-times" aria-hidden="true"></i>" ) );
+    })
+  })
+</script>

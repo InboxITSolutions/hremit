@@ -123,10 +123,343 @@ body{
     padding-left: 0px !important;
 }
 .navbar-default{
-    background-color: ;
-    border:none;
+    background: #e2e201;
+    border:0px;
     border-radius: none;
 }
 .smalllogo{
     display: none !important;
 }
+.navbar-toggle{
+    margin-left: 15px;
+}
+/*Banner*/
+#banner{
+    background: linear-gradient(#e2e201,#FF9800);
+    min-height: 37rem;
+    margin-top: -20px;
+}
+#banner .banner-container{
+    margin-top: 2em;
+}
+#banner .company-name{
+    margin: 6% auto;
+    z-index: 1;
+    width: 38%;
+}
+#banner .company-name h1{
+    font-size: 5em;
+    color: #333;
+    font-weight:lighter;
+    text-transform: uppercase;
+    line-height: 1.2;
+    /*padding-left: 1.3em;*/
+    text-shadow: 2px 1px #938585;
+    z-index: 1;
+}
+#banner center{
+    float: right;
+    margin-top: 2em;
+}
+.margin-left{
+    margin-left: 1.5em;
+}
+#banner .company-name .p-margin-left{
+    margin-left: 3.5em;
+}
+#banner .company-name p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    padding-top: 1.5em;
+    padding-left: 4em;
+    color: #333;
+    text-shadow: 2px 1px #938585;
+}
+.btn-signup{
+    font-size: 18px;
+    color: #333;
+    vertical-align: center;
+    margin-top: 1em;
+}
+
+#banner .banner-image{
+    margin-left: -16em;
+    margin-top: 6em;
+}
+.banner-image img{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.btn-banner{
+    font-size: 17px;
+}
+.btn-banner i{
+    vertical-align: middle;
+    font-weight: lighter;
+    font-size: 1.5em;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.btn-banner img{
+    height: 33px;
+}
+#forex{
+    /*padding: 10px 0px;*/
+}
+#forex .div-forex{
+    padding: 0px;
+    margin-bottom: 2em;
+
+}
+.div-forex span{
+    background: #000;
+    color: #fff;
+}
+.div-forex span h1{
+    width: 10%;
+    padding: 9px 10px 10px 10px;
+}
+.div-forex .marquee{
+    width: 95%; 
+    padding: 8px 0px 5px 0px;
+    border-bottom: 1px solid;
+}
+.div-function{
+    /*margin-top: 2rem;*/
+    margin-bottom: 2rem;
+}
+.function-box{
+    text-align: center;
+    line-height: 1.5;
+}
+.function-title{
+    font-size: 20px;
+}
+.function-box .function-icon img{
+    margin: auto;
+    margin-bottom: 10px;
+}
+#wu-promotion{
+    margin-top: 2rem;
+}
+.div-promotion{
+    padding: 0px;
+    width: 100%;
+    height: 480px;
+}
+.div-promotion img{
+    height: 100%;
+    width: 100%;
+}
+.div-available{
+    margin-bottom: 4.5rem;
+}
+.div-available .mon{
+    margin-top: 5rem;
+    height: 300px;
+    width: 55%;
+    background-image: url(../images/mon.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+    margin-left: -5rem;
+    z-index: -1;
+}
+.map-content{
+    width: 48.333333%;
+    padding-left: 5rem;
+    margin-top: 5rem;
+    z-index: 1;
+}
+.map-content h1{
+    font-size: 3rem;
+    font-weight: lighter;
+}
+.available-content{
+    padding: 10px 0rem 0 4.5rem;
+    line-height: 1.8;
+    margin-top: 1rem;
+    word-spacing: 1px;
+    text-align: justify;
+}
+#work-process .div-work{
+    background: linear-gradient(#e2e201,#FF9800);
+    padding: 1em 0px;
+    margin-bottom: 2rem;
+}
+.section-title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+}
+.section-title h1{
+    font-weight: lighter;
+    margin-right: 5rem;
+}
+.div-work .row{
+    margin: 0px;
+    padding: 0px;
+}
+.direction{
+    margin-top: 3rem;
+}
+.div-achievement{
+    background:linear-gradient(#ffffff,#ffbf00);
+    min-height: 660px;
+    margin-bottom: 2rem;
+}
+.achieve-container{
+    margin-top: 2rem;
+}
+/*.first-half{
+    background-image: url(../images/medal.png);
+    background-repeat: no-repeat;
+    height: 100%;
+}*/
+.first-half .first-half-image{
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: -1rem;
+    opacity: 0.6;
+}
+/*.second-half{
+    background-image: url(../images/award.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    float: right;
+}*/
+.second-half .second-half-image{
+    position: absolute;
+    margin-left: 27.2rem;
+    opacity: 0.6;
+}
+.achieve-box{
+    margin-bottom: 3rem;
+}
+.achieve-box img{
+    float: left;
+    margin-top: .4rem;
+}
+.achieve-box h1{
+    font-family: "Berlin Sans FB";
+    font-size: 30px;
+    letter-spacing: 3;
+    font-weight: lighter;
+    margin: 0px;
+    padding-left: 4rem;
+
+}
+.achieve-box p{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+    padding:.5rem 5rem 1rem 4rem;
+}
+
+#testimonial{}
+#testimonial .div-testimonial{
+    /*height: 400px;*/
+    padding-bottom: 5rem;
+}
+#testimonial #tcb-testimonial-carousel{
+    margin-top: 5rem !important;
+    padding: 0 0 0 8rem;
+}
+#testimonial .container-fluid{
+    padding: 0px;
+}
+#testimonial .carousel-control.left,.carousel-control.right{
+    background-color: transparent;
+    background-image: none;
+}
+#testimonial .carousel-control.left{
+    margin-left: -5em;
+}
+#testimonial .carousel-control.right{
+    margin-right: -5em;
+}
+.cus-detail{
+    text-align: center;
+    margin-top: 2rem;
+}
+.cus-detail img{
+    float: right;
+    height: 80px;
+    width: 80px;
+}
+.cus-detail .cus-pic{
+    text-align: right;
+    padding-right: 1rem;
+    width: 39%;
+}
+.cus-detail .cus-name p{
+    text-align: left;
+    font-size: 20px;
+    margin: 0px;
+    
+}
+.cus-detail .cus-position p{
+    text-align: left;
+    font-size: 17px;
+    margin: 0px;
+}
+.cus-detail .cus-company p{
+    text-align: left;
+    font-size: 17px;
+    margin: 0px;
+}
+#auth .div-footer-up{
+        padding-top: 1rem;
+        background: linear-gradient(#ffcf40,#ffffff)
+    }
+.div-footer-up .auth-box{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.div-footer-up .auth-box .auth-head{
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.company-detail{
+    padding: 0 5rem;
+    margin-top: 2rem;
+}
+.company-detail .address{
+    /*margin-top: 2rem;*/
+}
+.company-detail .name{
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+.company-detail .address h2{
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 2;
+}
+.company-detail .address h2 i{
+    font-size: 26px;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+.social-icon {
+    padding: 25px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: red
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -ms-transform-origin: 20% 40%; /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%; /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+    transform-origin: 20% 40%;
+}
+.social-icon .fa{
+    transform: rotate(-45deg);
+    font-size: 20px;
+}
+
