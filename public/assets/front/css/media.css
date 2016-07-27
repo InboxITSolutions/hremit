@@ -14,10 +14,10 @@
 		float: right;
 	}
 	#banner{
-		min-height: 28.8rem !important;
 	}
 	#banner .banner-container{
 		padding: 0px;
+		min-height: 28.4rem;
 	}
 	#banner .company-name{
 		width: 100%;
@@ -117,5 +117,56 @@
 	.cus-detail .cus-name p{
 		text-align: center;
 	}
-	
+	/*Contact*/
+	.contact-wrap{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.feedback-box{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.contact-form div{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	/*footer*/
+	footer{
+		min-height: 285px;
+	}
+	.company-detail .name{
+		font-size: 20px;
+	}
+	.company-detail .address h2{
+		font-size: 16px;
+	}
+	/*Gallery*/
+	.gallery-image{
+		margin-bottom: 0.3rem;
+	}
+	/*.fancybox-opened .fancybox-skin{
+		padding: 0px !important;
+	}
+	.fancybox-inner{
+		height: 100% !important;
+		width: 100% !important;
+	}*/
+	.wu-overlay{
+		height: 160px;
+	}
+	.overlay-logo{
+		height: 50px;
+		margin-left: 60%;
+		text-align: right;
+	}
+	.overlay-logo img{
+		height: 60% !important;
+	}
+	.overlay-text {
+    margin-top: 1rem;
+    padding: 10px;
+    font-size: 17px;
+    width: 17rem;
+	}
 }

@@ -12,3 +12,7 @@
 */
 
 Route::get('/','WebsiteController@index');
+Route::get('/about','WebsiteController@getAbout');
+Route::get('/contact','WebsiteController@getContact');
+Route::get('/gallery','WebsiteController@getGallery');
+Route::get('/media','WebsiteController@getMedia');

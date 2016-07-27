@@ -118,6 +118,7 @@ body{
 #navigation .container{
     margin: 0px;
     width: 100%;
+    padding: 0% 4%;
 }
 .navbar .nav-collapse{
     padding-left: 0px !important;
@@ -126,6 +127,7 @@ body{
     background: #e2e201;
     border:0px;
     border-radius: none;
+    padding: 0.5em 0 1em 0;
 }
 .smalllogo{
     display: none !important;
@@ -135,12 +137,11 @@ body{
 }
 /*Banner*/
 #banner{
-    background: linear-gradient(#e2e201,#FF9800);
-    min-height: 37rem;
-    margin-top: -20px;
+    margin-top: -55px;
 }
 #banner .banner-container{
-    margin-top: 2em;
+    padding: 0 4%;
+    background: linear-gradient(#e2e201,#FF9800);
 }
 #banner .company-name{
     margin: 6% auto;
@@ -228,6 +229,7 @@ body{
 .div-function{
     /*margin-top: 2rem;*/
     margin-bottom: 2rem;
+    padding: 4%;
 }
 .function-box{
     text-align: center;
@@ -239,6 +241,7 @@ body{
 .function-box .function-icon img{
     margin: auto;
     margin-bottom: 10px;
+    height: 100%;
 }
 #wu-promotion{
     margin-top: 2rem;
@@ -246,11 +249,34 @@ body{
 .div-promotion{
     padding: 0px;
     width: 100%;
-    height: 480px;
+    height: 370px;
+    background-image: url(../images/wu5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.div-promotion img{
+/*.div-promotion img{
     height: 100%;
     width: 100%;
+}*/
+.overlay-text{
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 7rem;
+    padding: 15px;
+    width: 25rem;
+    border: solid 2px #fff;
+    font-size: 20px;
+    color: #fff;
+    font-weight: lighter;
+}
+.overlay-logo{
+    height: 80px;
+    width: 100px;
+    margin-left: 90%;
+    padding-top: 1rem;
+}
+.overlay-logo img{
+    height: 60%;
 }
 .div-available{
     margin-bottom: 4.5rem;
@@ -277,7 +303,7 @@ body{
     font-weight: lighter;
 }
 .available-content{
-    padding: 10px 0rem 0 4.5rem;
+    padding: 10px 0rem 0 0rem;
     line-height: 1.8;
     margin-top: 1rem;
     word-spacing: 1px;
@@ -287,16 +313,21 @@ body{
     background: linear-gradient(#e2e201,#FF9800);
     padding: 1em 0px;
     margin-bottom: 2rem;
+    padding: 1% 0% 4% 6%;
 }
 .section-title{
     text-align: center;
     font-size: 2rem;
     font-weight: lighter;
     margin-bottom: 1rem;
+    padding-top: 1rem;
 }
 .section-title h1{
     font-weight: lighter;
     margin-right: 5rem;
+}
+.section-title h1 span{
+    font-weight: 500;
 }
 .div-work .row{
     margin: 0px;
@@ -306,7 +337,7 @@ body{
     margin-top: 3rem;
 }
 .div-achievement{
-    background:linear-gradient(#ffffff,#ffbf00);
+    background:linear-gradient(#ffffff,#ffecb3,rgba(255, 191, 0, 0.96));
     min-height: 660px;
     margin-bottom: 2rem;
 }
@@ -318,11 +349,15 @@ body{
     background-repeat: no-repeat;
     height: 100%;
 }*/
+.first-half{
+    padding-left: 4%;
+}
 .first-half .first-half-image{
     position: absolute;
     margin-top: 8rem;
-    margin-left: -1rem;
+    margin-left: -3.5rem;
     opacity: 0.6;
+
 }
 /*.second-half{
     background-image: url(../images/award.png);
@@ -424,9 +459,15 @@ body{
     text-transform: uppercase;
     margin-bottom: 1rem;
 }
+footer{
+    width: 100%;
+}
 .company-detail{
-    padding: 0 5rem;
     margin-top: 2rem;
+}
+.div-company{
+    padding-left: 0px;
+    background:linear-gradient(#FF9800,#e2e201);
 }
 .company-detail .address{
     /*margin-top: 2rem;*/
@@ -470,10 +511,305 @@ body{
     bottom: 0;
     right: 0;
     padding: 1em 0em 0.5em 0;
+    color: #fff;
+    background: linear-gradient(#e2e201,#e3dd01);
 }
 .div-footer .copy{
     text-align: left;
 }
 .div-footer .our-company{
     text-align: right;
+}
+
+/*Fixed Nav*/
+.nav-fixed{position: fixed;top: 0;z-index: 99999;width: 100%;
+    background:rgba(33, 33, 33, 0.61);
+    /*-ms-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;*/
+    border-radius: 0px;
+    padding: 0.5em 0 1em 0;
+
+    }
+.nav-fixed li a{
+    color: #fff !important;
+}
+
+
+/*About Page*/
+#about-title{
+    background: linear-gradient(#e2e201,#FF9800);
+    margin-top: -20px;
+}
+.title{
+    padding: 4%;
+    text-align: center;
+
+}
+.title h1{
+    font-size: 3.5em;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.defination{
+    padding-top: 1em;
+    font-size: 1.2em;
+    line-height: 2;
+    color: #777;
+    margin-bottom: 2rem;
+}
+.main-defination{
+    margin-top: 1rem;
+}
+.second-defination{
+    margin-top: 1rem;
+}
+.vision-div{}
+.vision-div .vision-box{
+    margin-top: 2rem;
+}
+.vision-div .vision-box center img{
+        height: 50px;
+}
+.vision-div .vision-box center{
+    font-size: 1.5em;
+    line-height: 2;
+    color: #777;
+}
+.location-div{}
+.location-div .location-box{
+    margin-top: 2rem;
+}
+.location-div .location-box center img{
+    height: 100px;
+}
+.location-div .location-box center{
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #777;
+}
+
+/*Contact Page*/
+mail{
+    color: #5b5bf1;
+    font-size: 1.6rem;
+}
+phone{
+    display: block;
+}
+fax{
+    display: block;
+}
+#feedback{
+    background: #f9f9f9;
+    padding-bottom: 1.2rem;
+    padding-top: 0.5rem;
+}
+#about-content .container-fluid{
+      padding: 0px !important;
+}
+#feedback .container-fluid{
+    padding: 0px !important;
+    background: #f9f9f9;
+}
+#feed
+.contact-form {
+  margin-top: 30px;
+}
+
+.contact-form .input-block {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: solid 1px #f4b300;
+  width: 100%;
+  height: 60px;
+  padding: 25px;
+  position: relative;
+  margin-bottom: 20px;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.contact-form .input-block.focus {
+  background-color: #fff;
+  border: solid 1px #fb2900;
+}
+
+.contact-form .input-block.textarea {
+  height: auto;
+}
+
+.contact-form .input-block.textarea .form-control {
+  height: auto;
+  resize: none;
+}
+
+.contact-form .input-block label {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  display: block;
+  margin: 0;
+  font-weight: 300;
+  z-index: 1;
+  color: #333;
+  font-size: 18px;
+  line-height: 10px;
+}
+
+.contact-form .input-block .form-control {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  font-size: 18px;
+  color: #333;
+}
+
+.contact-form .input-block .form-control:focus label {
+  top: 0;
+}
+
+.contact-form .square-button {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  padding: 0 60px;
+  height: 60px;
+  border:solid 1px #f4b300;;
+  width: 100%;
+}
+
+.contact-form .square-button:hover,
+.contact-form .square-button:focus {
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  .contact-wrap {
+    width: 60%;
+    margin: auto;
+  }
+}
+
+
+/*----page styles---*/
+
+.contact-wrap {
+  padding: 15px;
+}
+
+.feedback-div h1 {
+  background-color: white;
+  color: #ff7c62;
+  padding: 40px;
+  margin: 0 0 50px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+
+.feedback-div h1 small {
+  font-size: 18px;
+  display: block;
+  text-transform: none;
+  font-weight: 300;
+  margin-top: 10px;
+  color: #ff7c62;
+}
+
+.made-with-love {
+  margin-top: 40px;
+  padding: 10px;
+  clear: left;
+  text-align: center;
+  font-size: 10px;
+  font-family: arial;
+  color: #fff;
+}
+
+.made-with-love i {
+  font-style: normal;
+  color: #F50057;
+  font-size: 14px;
+  position: relative;
+  top: 2px;
+}
+
+.made-with-love a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.made-with-love a:hover {
+  text-decoration: underline;
+}
+/*Gallery*/
+.gallery-div{
+    padding: 1rem 0rem;
+}
+.gallery-image{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.gallery-image div{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/*Media*/
+.div-media{
+    margin: 1rem 0rem 1rem 0rem;
+}
+.div-media ul{
+  list-style: none;
+}
+.div-media ul li{
+  float: left;
+}
+.media-option{
+    font-size: 2rem;
+    font-weight: lighter;
+    padding: 0.5rem 1rem;
+}
+.media-option h1{
+    font-weight: lighter;
+}
+.media-option h1 a{
+    text-decoration: none;
+    color: inherit;
+}
+.first-option{
+    text-align: right;
+    border-right: 1px inset #ccc;
+}
+.second-option{
+    text-align: right;
+    border-right: 1px inset #ccc;
+}
+.ul-media{
+  margin: 0px auto;
+  width: 20rem;
+  margin-bottom: 2rem;
 }
