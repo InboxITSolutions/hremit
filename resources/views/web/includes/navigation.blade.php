@@ -109,12 +109,12 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Works</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Contact</a></li>
+              <!-- <li><a href="{{'/'}}">Home</a></li> -->
+              <li><a href="{{'/about'}}">About</a></li>
+              <li><a href="{{'/agents'}}">Agents</a></li>
+              <li><a href="{{'/gallery'}}">Gallery</a></li>
+              <li><a href="{{'/media'}}">Media</a></li>
+              <li><a href="{{'/contact'}}">Contact</a></li>
               <li>
                 <a class="btn btn-default btn-outline btn-circle collapsed signin"  data-toggle="collapse" href="#nav-collapse2" aria-expanded="false" aria-controls="nav-collapse2">Sign in</a>
               </li>

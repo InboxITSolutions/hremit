@@ -12,3 +12,12 @@
 */
 
 Route::get('/','WebsiteController@index');
+Route::get('/about','WebsiteController@getAbout');
+Route::get('/contact','WebsiteController@getContact');
+Route::get('/gallery','WebsiteController@getGallery');
+Route::get('/media','WebsiteController@getMedia');
+Route::get('/agents','DatabaseController@index');
+Route::get('/ajax-district','DatabaseController@getDistrict');
+Route::get('/ajax-region','DatabaseController@getRegion');
+Route::get('/agent-fetch','DatabaseController@getAgent');
+

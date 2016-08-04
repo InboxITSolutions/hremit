@@ -4,7 +4,8 @@ Hulas Remittance
 @endsection
 @section('content')
 	<section id="banner">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 banner-container">
+		<div class=" first-parallax">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 banner-container parallax-window">
 				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 company-name">
 					<h1>HULAS</h1>
 					<h1 class="margin-left">Remittance</h1>
@@ -13,11 +14,10 @@ Hulas Remittance
 						<span class="p-margin-left">simple and flexible"</span>
 					</p>
 					<center>
-						<a class="btn btn-default btn-outline btn-circle btn-banner collapsed signin">Sign in
+						<a class="btn btn-default btn-outline btn-circle btn-banner collapsed signin">Sign Un
 							<img src="{{url('assets/front/images/loginicon.png')}}">
 						</a>
 						<a class="btn btn-default btn-outline btn-circle btn-banner collapsed ">Learn More
-							<!-- <img src="{{url('assets/front/images/down.png')}}"> -->
 							<i class="fa fa-angle-down fa-3x " aria-hidden="true" ></i>
 						</a>
 					</center>
@@ -26,7 +26,13 @@ Hulas Remittance
 					<img src="{{url('assets/front/images/banner1.png')}}" class="img-responsive">
 				</div>
 			</div>
+		</div>
 	</section>
+	<style>
+	.parallax-window{
+		background: transparent;
+	}
+	</style>
 	<section id="forex">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 div-forex">
 				<span class="pull-left">
@@ -81,8 +87,18 @@ Hulas Remittance
 		</div>
 	</section>
 	<section id="wu-promotion">
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 div-promotion">
-			<img src="{{url('assets/front/images/wu4.png')}}" class="img-responsive">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 div-promotion parallax-win-2">
+			<!-- <img src="{{url('assets/front/images/wu4.png')}}" class="img-responsive">
+ -->
+			<div class="wu-overlay">
+				<div class="overlay-logo">
+					<img src="{{url('assets/front/images/wu-logo.png')}}">
+				</div>
+				<div class="overlay-text">
+					<h1>YOUR MONEY IN RIGHT HAND</h1>
+				</div>
+			</div>
+
 		</div>
 	</section>
 	<section id="availability">
@@ -105,7 +121,7 @@ Hulas Remittance
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 div-work">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 section-title">
-					<h1>HOW WE WORK</h1>
+					<h1><span>HOW</span> WE WORK</h1>
 				</div>
 			</div>
 			<div class="row">
@@ -146,7 +162,7 @@ Hulas Remittance
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 div-achievement">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 section-title">
-					<h1>WHY WORK WITH US</h1>
+					<h1><span>WHY</span> WORK WITH US</h1>
 				</div>
 			</div>
 			<div class="row achieve-container">
@@ -326,36 +342,7 @@ Hulas Remittance
 					<img src="{{url('assets/front/images/sbi.png')}}">
 				</div>
 			</div>
-			<div class="company-detail">
-				<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 address">
-					<h1 class="name">Hulas Remittance Pvt. Ltd.</h1>
-					<h2><i class="fa fa-map-marker" aria="hidden"></i>Bagh Durbar, Sundhara, Kathamndu</h2>
-					<h2><i class="fa fa-phone" aria="hidden"></i>977-1-4261313</h2>
-				</div>
-				<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 follow">
-					<h1 class="name">Follow Us</h1>
-					<div class="social-icon">
-						<a href="#">
-							<img src="{{url('assets/front/images/fb.png')}}">
-						</a>
-					</div>
-					<div class="social-icon">
-						<a href="#">
-							<img src="{{url('assets/front/images/tw.png')}}" class="tw-img">
-						</a>
-					</div>
-					<div class="social-icon">
-						<a href="#">
-							<img src="{{url('assets/front/images/fb.png')}}">
-						</a>
-					</div>
-					<div class="social-icon">
-						<a href="#">
-							<img src="{{url('assets/front/images/tw.png')}}" class="tw-img">
-						</a>
-					</div>
-				</div>
-			</div>
 		</div>
 	</section>
+	
 @endsection
