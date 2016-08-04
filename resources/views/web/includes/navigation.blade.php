@@ -111,7 +111,11 @@
             <ul class="nav navbar-nav navbar-right">
               <!-- <li><a href="{{'/'}}">Home</a></li> -->
               <li><a href="{{'/about'}}">About</a></li>
+<<<<<<< HEAD
               <li><a href="{{'/agents'}}">Agents</a></li>
+=======
+              <li><a href="#">Agents</a></li>
+>>>>>>> a02be301d35b8528f79a85647ef65d1ae806da76
               <li><a href="{{'/gallery'}}">Gallery</a></li>
               <li><a href="{{'/media'}}">Media</a></li>
               <li><a href="{{'/contact'}}">Contact</a></li>

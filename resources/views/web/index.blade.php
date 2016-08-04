@@ -87,7 +87,11 @@ Hulas Remittance
 		</div>
 	</section>
 	<section id="wu-promotion">
+<<<<<<< HEAD
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 div-promotion parallax-win-2">
+=======
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 div-promotion">
+>>>>>>> a02be301d35b8528f79a85647ef65d1ae806da76
 			<!-- <img src="{{url('assets/front/images/wu4.png')}}" class="img-responsive">
  -->
 			<div class="wu-overlay">

@@ -137,11 +137,19 @@ body{
 }
 /*Banner*/
 #banner{
+<<<<<<< HEAD
     margin-top: -52px;
 }
 #banner .banner-container{
     padding: 1.8% 4%;
     /*background: linear-gradient(#e2e201,#FF9800);*/
+=======
+    margin-top: -55px;
+}
+#banner .banner-container{
+    padding: 0 4%;
+    background: linear-gradient(#e2e201,#FF9800);
+>>>>>>> a02be301d35b8528f79a85647ef65d1ae806da76
 }
 #banner .company-name{
     margin: 6% auto;
@@ -250,7 +258,11 @@ body{
     padding: 0px;
     width: 100%;
     height: 370px;
+<<<<<<< HEAD
     /*background-image: url(../images/wu5.png);*/
+=======
+    background-image: url(../images/wu5.png);
+>>>>>>> a02be301d35b8528f79a85647ef65d1ae806da76
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -467,9 +479,13 @@ footer{
 }
 .div-company{
     padding-left: 0px;
+<<<<<<< HEAD
    /* background:linear-gradient(#FF9800,#e2e201);*/
    background: #fff;
     padding: 0 3%;
+=======
+    background:linear-gradient(#FF9800,#e2e201);
+>>>>>>> a02be301d35b8528f79a85647ef65d1ae806da76
 }
 .company-detail .address{
     /*margin-top: 2rem;*/
@@ -773,7 +789,11 @@ fax{
 }
 /*Gallery*/
 .gallery-div{
+<<<<<<< HEAD
     padding: 1rem  3% 0 4%;
+=======
+    padding: 1rem 0rem;
+>>>>>>> a02be301d35b8528f79a85647ef65d1ae806da76
 }
 .gallery-image{
     padding-left: 0px;
@@ -783,10 +803,13 @@ fax{
     padding-left: 0px;
     padding-right: 0px;
 }
+<<<<<<< HEAD
 .gallery-image img{
   width: 95% !important;
   margin-bottom: 1rem;
 }
+=======
+>>>>>>> a02be301d35b8528f79a85647ef65d1ae806da76
 /*Media*/
 .div-media{
     margin: 1rem 0rem 1rem 0rem;
@@ -822,6 +845,7 @@ fax{
   width: 20rem;
   margin-bottom: 2rem;
 }
+<<<<<<< HEAD
 
 /*Agent page*/
 #section-select-box{
@@ -831,3 +855,5 @@ fax{
 #map iframe{
   width: 100%;
 }
+=======
+>>>>>>> a02be301d35b8528f79a85647ef65d1ae806da76

@@ -16,8 +16,11 @@ Route::get('/about','WebsiteController@getAbout');
 Route::get('/contact','WebsiteController@getContact');
 Route::get('/gallery','WebsiteController@getGallery');
 Route::get('/media','WebsiteController@getMedia');
+<<<<<<< HEAD
 Route::get('/agents','DatabaseController@index');
 Route::get('/ajax-district','DatabaseController@getDistrict');
 Route::get('/ajax-region','DatabaseController@getRegion');
 Route::get('/agent-fetch','DatabaseController@getAgent');
 
+=======
+>>>>>>> a02be301d35b8528f79a85647ef65d1ae806da76
