@@ -123,7 +123,6 @@
   $('#Container').mixItUp();
 });
 </script>
-<<<<<<< HEAD
 <script>
 	$('#zone').on('change',function(e){
 		console.log(e);
@@ -190,5 +189,3 @@
 <script type="text/javascript">
 	$('.parallax-win-2').parallax({imageSrc:'{{url('assets/front/images/wu5.png')}}'})
 </script>
-=======
->>>>>>> a02be301d35b8528f79a85647ef65d1ae806da76

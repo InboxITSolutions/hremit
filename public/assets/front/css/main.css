@@ -124,9 +124,10 @@ body{
     padding-left: 0px !important;
 }
 .navbar-default{
-    background: #e2e201;
+   /* background: #e2e201;*/
+   background: #fff;
     border:0px;
-    border-radius: none;
+    border-radius: 0px;
     padding: 0.5em 0 1em 0;
 }
 .smalllogo{
@@ -137,19 +138,12 @@ body{
 }
 /*Banner*/
 #banner{
-<<<<<<< HEAD
     margin-top: -52px;
 }
 #banner .banner-container{
     padding: 1.8% 4%;
     /*background: linear-gradient(#e2e201,#FF9800);*/
-=======
-    margin-top: -55px;
-}
-#banner .banner-container{
-    padding: 0 4%;
-    background: linear-gradient(#e2e201,#FF9800);
->>>>>>> a02be301d35b8528f79a85647ef65d1ae806da76
+    background: url(../images/back-banner1.png);
 }
 #banner .company-name{
     margin: 6% auto;
@@ -258,13 +252,10 @@ body{
     padding: 0px;
     width: 100%;
     height: 370px;
-<<<<<<< HEAD
     /*background-image: url(../images/wu5.png);*/
-=======
-    background-image: url(../images/wu5.png);
->>>>>>> a02be301d35b8528f79a85647ef65d1ae806da76
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 12rem;
 }
 /*.div-promotion img{
     height: 100%;
@@ -479,13 +470,9 @@ footer{
 }
 .div-company{
     padding-left: 0px;
-<<<<<<< HEAD
    /* background:linear-gradient(#FF9800,#e2e201);*/
    background: #fff;
     padding: 0 3%;
-=======
-    background:linear-gradient(#FF9800,#e2e201);
->>>>>>> a02be301d35b8528f79a85647ef65d1ae806da76
 }
 .company-detail .address{
     /*margin-top: 2rem;*/
@@ -544,7 +531,7 @@ footer{
 
 /*Fixed Nav*/
 .nav-fixed{position: fixed;top: 0;z-index: 99999;width: 100%;
-    background:rgba(33, 33, 33, 0.61);
+    /*background:rgba(33, 33, 33, 0.61);*/
     /*-ms-transition: all 0.4s ease;
     -webkit-transition: all 0.4s ease-out;
     -moz-transition: all 0.4s ease-out;
@@ -555,7 +542,7 @@ footer{
 
     }
 .nav-fixed li a{
-    color: #fff !important;
+    /*color: #fff !important;*/
 }
 
 
@@ -789,11 +776,7 @@ fax{
 }
 /*Gallery*/
 .gallery-div{
-<<<<<<< HEAD
     padding: 1rem  3% 0 4%;
-=======
-    padding: 1rem 0rem;
->>>>>>> a02be301d35b8528f79a85647ef65d1ae806da76
 }
 .gallery-image{
     padding-left: 0px;
@@ -803,13 +786,10 @@ fax{
     padding-left: 0px;
     padding-right: 0px;
 }
-<<<<<<< HEAD
 .gallery-image img{
   width: 95% !important;
   margin-bottom: 1rem;
 }
-=======
->>>>>>> a02be301d35b8528f79a85647ef65d1ae806da76
 /*Media*/
 .div-media{
     margin: 1rem 0rem 1rem 0rem;
@@ -845,7 +825,6 @@ fax{
   width: 20rem;
   margin-bottom: 2rem;
 }
-<<<<<<< HEAD
 
 /*Agent page*/
 #section-select-box{
@@ -855,5 +834,3 @@ fax{
 #map iframe{
   width: 100%;
 }
-=======
->>>>>>> a02be301d35b8528f79a85647ef65d1ae806da76

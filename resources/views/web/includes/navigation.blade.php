@@ -34,7 +34,7 @@
 .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 22px; }
 
 .navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding-right: 120px; padding-left: 80px; width: 100%; }
-.navbar.navbar-default .nav-collapse { background-color: #e2e001; }
+.navbar.navbar-default .nav-collapse { background-color: #fff; }
 .navbar.navbar-inverse .nav-collapse { background-color: #222; }
 .navbar .nav-collapse .navbar-form { border-width: 0; box-shadow: none; }
 .nav-collapse>li { float: right; }
@@ -111,11 +111,7 @@
             <ul class="nav navbar-nav navbar-right">
               <!-- <li><a href="{{'/'}}">Home</a></li> -->
               <li><a href="{{'/about'}}">About</a></li>
-<<<<<<< HEAD
               <li><a href="{{'/agents'}}">Agents</a></li>
-=======
-              <li><a href="#">Agents</a></li>
->>>>>>> a02be301d35b8528f79a85647ef65d1ae806da76
               <li><a href="{{'/gallery'}}">Gallery</a></li>
               <li><a href="{{'/media'}}">Media</a></li>
               <li><a href="{{'/contact'}}">Contact</a></li>
